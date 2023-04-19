@@ -28,3 +28,11 @@ MAX_ASPECT_RATIO: The maximum aspect ratio of the fitted ellipse.
 
 
 These parameters can be adjusted by changing their values in the "VolumeEstimationTool.py" script.
+
+# Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Para obtener más información, consulte el archivo [LICENSE](LICENSE) en la raíz de este repositorio.
+
+MIT License
+
+Copyright (c) 2023 Alejandro Olivo
