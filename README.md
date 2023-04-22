@@ -3,6 +3,8 @@ Python code to estimate the volume of a truncated-cylindrical object by fitting 
 
 This tool is used for estimating the volume of objects represented as point clouds. The tool performs a principal component analysis (PCA) on the point cloud to align all profiles, splits the point cloud into 2D profiles, fits an ellipse to each profile, and then calculates the volume of the object from the fitted ellipses.
 
+![Ellipse fitting example](screenshots/ellipse-fitting.png)
+
 # Requirements
 ellipse==0.6.0
 lsq_ellipse==2.2.1
@@ -14,6 +16,8 @@ scipy==1.10.0
 
 # Usage
 The input data should be a point cloud file in XYZ format with columns for X, Y, and Z coordinates. To use the tool, run the "VolumeEstimationTool.py" script and provide the path to the input file. The tool will then generate a series of plots to visualize the point cloud, the aligned point cloud, and the fitted ellipses.
+
+![3D View example](screenshots/3d-view.png)
 
 # Parameters
 The tool has several parameters that can be adjusted:
